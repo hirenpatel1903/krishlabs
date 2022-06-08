@@ -1,0 +1,58 @@
+{
+  "_from": "onscan.js",
+  "_id": "onscan.js@1.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-9oGYy2gXYRjvXO9GYqqVca0VuCTAmWhbmX3egBSBP13rXiMNb+dKPJzKFEeECGqPBpf0m40Zoo+GUQ7eCackdw==",
+  "_location": "/onscan.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "onscan.js",
+    "name": "onscan.js",
+    "escapedName": "onscan.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/onscan.js/-/onscan.js-1.5.2.tgz",
+  "_shasum": "14ed636e5f4c3f0a78bacbf9a505dad3140ee341",
+  "_spec": "onscan.js",
+  "_where": "D:\\iNilabs_project\\pos-visitor",
+  "author": {
+    "name": "Andrej Kabachnik"
+  },
+  "bugs": {
+    "url": "https://github.com/axenox/onscan.js/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Andrej Kabachnik"
+    },
+    {
+      "name": "Thomas Michael"
+    }
+  ],
+  "deprecated": false,
+  "description": "Framework agnostic onScan event fired when using hardware barcode scanners",
+  "homepage": "https://github.com/axenox/onscan.js/",
+  "keywords": [
+    "barcode",
+    "RFID",
+    "scanner",
+    "scan"
+  ],
+  "license": "MIT",
+  "main": "onscan.js",
+  "name": "onscan.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axenox/onscan.js.git"
+  },
+  "version": "1.5.2"
+}

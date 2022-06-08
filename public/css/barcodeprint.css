@@ -1,0 +1,47 @@
+.printBarcode {
+    width: 8.25in;
+    height: 11.6in;
+    display: block;
+    border: 1px solid #CCC;
+    margin: 10px auto;
+    padding: 0.1in 0 0 0.1in;
+    page-break-after: always;
+}
+
+.printBarcode .barcodeStyle {
+    width: 2.48in;
+    height: 1.335in;
+    margin-left: 0.079in;
+    padding-top: 0.05in;
+}
+.printBarcode .item {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    border: 1px dotted #CCC;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.printBarcode .barcodeStyle .barcode_site, .printBarcode .barcodeStyle .barcode_name {
+    font-size: 14px;
+}
+
+.printBarcode .barcode_site, .printBarcode .barcode_name, .printBarcode .barcode_image, .printBarcode .variants {
+    display: block;
+}
+.printBarcode .barcodeStyle .barcode_site, .printBarcode .barcodeStyle .barcode_name {
+    font-size: 14px;
+}
+
+.printBarcode .barcode_site, .printBarcode .barcode_name, .printBarcode .barcode_image, .printBarcode .variants {
+    display: block;
+}
+.printBarcode .barcode_price, .printBarcode .barcode_unit, .printBarcode .barcode_category {
+    display: inline-block;
+}
+.printBarcode .barcode_site, .printBarcode .barcode_name, .printBarcode .barcode_image, .printBarcode .variants {
+    display: block;
+}

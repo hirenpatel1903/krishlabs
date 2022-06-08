@@ -1,0 +1,237 @@
+.navbar-bg {
+    height: 71px!important;
+}
+.search-element {
+    display: none!important;
+}
+.align-item-center {
+    align-items: center!important;
+}
+.bg-purple {
+    background-color: #605ca8c7!important;
+    border-color: #605ca8;
+    color: #fff;
+}
+.bg-purple:hover {
+    background-color: #605ca8!important;
+    box-shadow: 0 2px 6px #82819eb0;
+    color: #fff;
+}
+.bg-navy {
+    background-color: #001f3fd2!important;
+    border-color: #001f3f;
+    color: #fff;
+}
+.bg-navy:hover {
+    background-color: #001f3f!important;
+    border-color: #001f3f;
+    box-shadow: 0 2px 6px #304963ba;
+    color: #fff;
+}
+.w-99 {
+    width: 99%!important;
+}
+.pos-card .print {
+    display: none;
+}
+.pos-card, .product-card {
+    height: 87vh;
+}
+.pos-bottom {
+    position: absolute;
+    width: 90%;
+    bottom: 10px;
+}
+
+.table>tbody>tr.success>td, .table>tbody>tr.success>th, .table>tbody>tr>td.success, .table>tbody>tr>th.success, .table>tfoot>tr.success>td, .table>tfoot>tr.success>th, .table>tfoot>tr>td.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>thead>tr.success>th, .table>thead>tr>td.success, .table>thead>tr>th.success {
+    background-color: #dff0d8;
+}
+#registerDetailsModal td {
+    border-bottom: 1px solid #EEE;
+}
+#print th, #print td {
+    padding: 5px!important;
+    height: auto;
+}
+.product-nav {
+    position: absolute;
+    bottom: 2px;
+}
+.pos button.edit {
+    white-space: normal;
+    text-align: left!important;
+}
+.pointer {
+    cursor: pointer;
+}
+.btn-small {
+    font-size: 80%!important;
+}
+.modal {
+    color: black;
+}
+.modal h4 {
+    font-size: 18px;
+    font-weight: normal!important;
+}
+.modal-success .modal-header {
+    color: white;
+    background-color: #008d4c!important;
+}
+.modal-success .modal-body {
+    color: white;
+    background-color: #00a65a!important;
+}
+.footer-bottom {
+    position: absolute;
+}
+
+@media screen and (max-width: 860px) {
+    .pos-card, .product-card {
+        height: 85vh;
+    }
+}
+@media screen and (min-width: 860px) and (max-width: 1104px) {
+    .pos-card, .product-card {
+        height: 87vh;
+    }
+}
+@media screen and (min-width: 576px) {
+    .product-nav {
+        position: absolute;
+        bottom: 5px!important;
+    }
+}
+@media screen and (max-width: 320px) {
+    .navbar-right .nav-link {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+}
+
+@media print {
+    body * {
+        visibility:hidden;
+    }
+    #printSection, #printSection * {
+        visibility:visible;
+    }
+    #printSection {
+        position:absolute;
+        left:0;
+        top:0;
+        right: 0;
+        left: 0;
+    }
+}
+
+.select2-container{
+    width: 410px !important;
+}
+
+.table-responsive {
+    max-height:300px;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.bb td, .bb th {
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+}
+
+.product-button {
+    flex: 0 0 18% !important; padding-left: 0px !important;padding-right: 0px !important;
+}
+
+.bg-img-product {
+    margin: 0 auto;
+}
+.pos-product-button {
+    height: 160px;
+    overflow-y: scroll;
+}
+
+.pos-product-button::-webkit-scrollbar {
+    display: none;
+}
+
+.pos-product-button {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.img-pos-product{
+    width: 100px !important; height: 100px !important;
+}
+.item-list-css{
+    height: 37vh !important;
+}
+.card-pos-css{
+    margin-bottom:5px !important;
+}
+.card-form-pos-css{
+    margin-bottom:5px !important;
+}
+.pos-scroll-css{
+    height: 35vh!important;
+}
+.pos-tr-th-css{
+    width: 15% !important;text-align:center!important;
+}
+.pos-tr-th-cssone{
+    width: 10% !important;text-align:center!important;
+}
+.pos-tr-th-csstwo{
+    width: 18% !important;text-align:center!important;
+}
+.pos-th-i{
+    width: 20px !important;
+}
+.pos-table-css{
+    margin-bottom:10px !important;
+}
+.pos-tabel-th-css{
+    padding-right:10px !important;
+}
+.pos-button-css{
+    height: 20px !important;padding: 0px !important;line-height: 0px !important;
+}
+
+.pos-total{
+    font-weight:bold !important;
+}
+.pos-row-css{
+    overflow-y: hidden !important;
+}
+.pos-cancel-css{
+    height:70px !important;
+}
+.pos-col-css{
+    padding: 0 5px !important;
+}
+.pos-col-md-css{
+    padding: 0!important;
+}
+.pos-table-total-css{
+    border-right-color: #FFF !important;
+}
+.pos-cart-css-th{
+    width:25% !important;
+}
+.pos-cart-css-th15{
+    width:15% !important;
+}
+.pos-cart-css-th30{
+    width:30% !important;
+}
+.text-center{
+    text-align:center !important;
+}

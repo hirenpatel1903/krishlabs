@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'dashboard'        => 'Dashboard',
+    'administrators'    => 'Administrators',
+    'categories'       => 'Categories',
+    'role'             => 'Role',
+    'roles'            => 'Roles',
+    'shop'             => 'Shop',
+    'shops'            => 'Shops',
+    'report'           => 'Report',
+    'sales_report'     => 'Sales Report',
+    'stock_report'     => 'Stock Report',
+    'purchases_report' => 'Purchase Report',
+    'customers'        => 'Customers',
+    'deposit'          => 'Deposit',
+    'administrator'    => 'Administrator',
+    'products'         => 'Products',
+    'barcode_level'    => 'Barcode/Label',
+    'profile'          => 'Profile',
+    'purchases'        => 'Purchases',
+    'purchase'         => 'Purchase',
+    'units'            => 'Units',
+    'pos'              => 'POS',
+    'sales'            => 'Sales',
+    'stock'            => 'Stock',
+    'language'         => 'Language',
+    'settings'         => 'Settings',
+    'tax_rates'        => 'Tax Rates',
+    'addons'           => 'Addons',
+
+];
